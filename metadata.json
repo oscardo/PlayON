@@ -1,0 +1,5 @@
+{
+  "name": "PlayON - Smart Recorder",
+  "description": "Professional meeting recorder with AI transcription, executive summaries, and multi-language support.",
+  "requestFramePermissions": ["microphone"]
+}

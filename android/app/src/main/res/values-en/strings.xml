@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlayON</string>
+    <string name="tooltip_record">Record</string>
+    <string name="tooltip_stop">Stop</string>
+    <string name="tooltip_play">Play</string>
+    <string name="tooltip_pause">Pause</string>
+    <string name="tooltip_start">Go to start</string>
+    <string name="tooltip_end">Go to end</string>
+    <string name="tooltip_forward">Forward</string>
+    <string name="tooltip_backward">Backward</string>
+    <string name="speed_label">Speed</string>
+    <string name="ai_model_label">AI Model</string>
+    <string name="settings_title">AI Settings</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_recording">Recording...</string>
+    <string name="status_processing">Processing...</string>
+    <string name="status_error">Error</string>
+    <string name="email_subject">PlayON: Meeting Results</string>
+    <string name="email_chooser">Send results via email</string>
+    <string name="ai_prompt">Analyze this meeting audio in English. Return a JSON object with: 1. \'transcription\': A diarized transcription with clearly identified speakers (e.g. [Speaker 1], [Speaker 2]) and word-level timestamps in [MS|WORD] format (e.g. [1250|Hello] [1500|everyone]). 2. \'summary\': An object with \'executive_summary\', \'key_decisions\' (list of important decisions), \'action_items\' (list of objects with \'item\', \'assignee\', \'deadline\') and \'risks\' (list of potential risks or challenges).</string>
+    <string name="sample_rate_label">Sample Rate:</string>
+    <string name="bit_depth_label">Bit Depth:</string>
+    <string name="channels_label">Channels:</string>
+    <string name="local_model_path_hint">Local Model Path (.gguf)</string>
+    <string name="download_model_button">Download Model</string>
+    <string name="transcription_header">Transcription:</string>
+</resources>

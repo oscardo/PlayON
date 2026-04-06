@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlayON</string>
+    <string name="tooltip_record">Grabar</string>
+    <string name="tooltip_stop">Detener</string>
+    <string name="tooltip_play">Reproducir</string>
+    <string name="tooltip_pause">Pausar</string>
+    <string name="tooltip_start">Ir al inicio</string>
+    <string name="tooltip_end">Ir al final</string>
+    <string name="tooltip_forward">Adelante</string>
+    <string name="tooltip_backward">Atrás</string>
+    <string name="speed_label">Velocidad</string>
+    <string name="ai_model_label">Modelo IA</string>
+    <string name="settings_title">Ajustes de IA</string>
+    <string name="save_button">Guardar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="status_ready">Listo</string>
+    <string name="status_recording">Grabando...</string>
+    <string name="status_processing">Procesando...</string>
+    <string name="status_error">Error</string>
+    <string name="email_subject">PlayON: Resultados de la reunión</string>
+    <string name="email_chooser">Enviar resultados por email</string>
+    <string name="ai_prompt">Analiza este audio de reunión. Devuelve un objeto JSON con: 1. \'transcription\': Una transcripción diarizada donde cada hablante esté identificado claramente (ej. [Hablante 1], [Hablante 2]) y cada palabra tenga su marca de tiempo exacta en milisegundos en formato [MS|PALABRA] (ej. [1250|Hola] [1500|todos]). 2. \'summary\': Un objeto con \'executive_summary\', \'key_decisions\' (lista de decisiones importantes), \'action_items\' (lista de objetos con \'item\', \'assignee\', \'deadline\') y \'risks\' (lista de riesgos o desafíos potenciales).</string>
+    <string name="sample_rate_label">Frecuencia:</string>
+    <string name="bit_depth_label">Bits:</string>
+    <string name="channels_label">Canales:</string>
+    <string name="local_model_path_hint">Ruta Modelo Local (.gguf)</string>
+    <string name="download_model_button">Descargar Modelo</string>
+    <string name="transcription_header">Transcripción:</string>
+    <string name="btn_process_audio">Procesar Audio</string>
+    <string name="template_name_hint">Nombre de la plantilla</string>
+    <string name="no_templates_message">No hay plantillas guardadas</string>
+    <string name="select_template_title">Seleccionar Plantilla</string>
+</resources>
